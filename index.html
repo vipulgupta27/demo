@@ -9,7 +9,7 @@
       document.intrestCohort=null;
       console.log('dddd');
       console.log = console.warn = console.error = () => {};
-      window.console.warn = (e) => console.log(e);
+      window.console.warn = (e) => {};
     </script>
   </head>
   <body>
@@ -24,7 +24,7 @@
       console.log('dddd');
       console.warn = (e) => {};
 //       console.clear();
-      window.console.warn = (e) => console.log(e);
+      window.console.warn = (e) => {};
     </script>
     <!-- built files will be auto injected -->
   </body>
